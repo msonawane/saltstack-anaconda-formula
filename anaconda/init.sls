@@ -24,7 +24,7 @@ download_anaconda:
 run_installer:
   cmd.run:
     - name: {{anaconda.download_at}} -b -p  {{anaconda.anaconda_home}} 
-    - runas: tapdaq_apps
+    - runas: {{anaconda.user}}
     - require:
       - file: download_anaconda
     - unless: test -d {{anaconda.anaconda_home}}
