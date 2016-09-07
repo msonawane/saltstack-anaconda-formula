@@ -1,0 +1,8 @@
+anaconda:
+  url: https://repo.continuum.io/archive/Anaconda3-4.1.1-Linux-x86_64.sh
+  source_hash: sha256=4f5c95feb0e7efeadd3d348dcef117d7787c799f24b0429e45017008f3534e55
+  user: user
+  user_home: /user_home
+  download_at: /opt/Anaconda3-4.1.1-Linux-x86_64.sh
+  anaconda_home:  /anaconda_home/anaconda
+  
